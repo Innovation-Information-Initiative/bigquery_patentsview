@@ -1,0 +1,20 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "num_figures",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "number of figures included with patent"
+    },
+    {
+        "name": "num_sheets",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "number of drawing sheets included with patent"
+    }
+]

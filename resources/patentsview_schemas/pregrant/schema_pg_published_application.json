@@ -1,0 +1,68 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "application_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "unique application identifying number"
+    },
+    {
+        "name": "filing_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "date of application filing"
+    },
+    {
+        "name": "patent_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "category of application ('utility' or 'plant')"
+    },
+    {
+        "name": "filing_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "type of publication filing"
+    },
+    {
+        "name": "published_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "date of publication"
+    },
+    {
+        "name": "wipo_kind",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "kind code of publication: https://www.uspto.gov/learning-and-resources/support-centers/electronic-business-center/kind-codes-included-uspto-patent"
+    },
+    {
+        "name": "series_code",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "unique application identifying number"
+    },
+    {
+        "name": "application_title",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "title of application"
+    },
+    {
+        "name": "rule_47_flag",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "flag for inventor who was unable to be contacted at filing of application"
+    },
+    {
+        "name": "filename",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "name of XML file from which the data was parsed"
+    }
+]

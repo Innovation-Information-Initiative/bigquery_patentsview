@@ -1,0 +1,32 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "application_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "application number"
+    },
+    {
+        "name": "current_pgpub_id_flag",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Flag indicating whether this row contains the most recent pgpub_id for a given application (TRUE = This pgpub_id refers to the most recent publication of this application; FALSE = This application has been re-published or corrected in a more recent publication)"
+    },
+    {
+        "name": "current_patent_id_flag",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Flag indicating whether this row contains the most recent patent_id for a given application (TRUE = This patent_id refers to the most recent patent granted to this application; FALSE = This patent has been withdrawn and re-issued under a more recent patent_id)"
+    }
+]

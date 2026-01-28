@@ -1,0 +1,32 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "claim_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which claims appear in patent file; sequence for this table begins at {1}."
+    },
+    {
+        "name": "claim_text",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "claim text"
+    },
+    {
+        "name": "dependent",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "sequence number of claim this is dependent on. NULL if independent"
+    },
+    {
+        "name": "claim_number",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "contains claim number of claim formatted as 0-prefixed 5 digit number"
+    }
+]

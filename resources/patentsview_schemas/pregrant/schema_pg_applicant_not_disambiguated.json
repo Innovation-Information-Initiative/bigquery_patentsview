@@ -1,0 +1,56 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "applicant_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which the party/applicant appears in the source XML file; sequence for this table begins at {1}."
+    },
+    {
+        "name": "applicant_authority",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The type of interest the applicant has in the intellectual property rights of a patent or application. May be equal to inventor, legal-representative, party-of-interest, obligated-assignee, assignee, or null."
+    },
+    {
+        "name": "raw_applicant_name_first",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "first name of the party/applicant, if an individual"
+    },
+    {
+        "name": "raw_applicant_name_last",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "last name of the party/applicant, if an individual"
+    },
+    {
+        "name": "raw_applicant_organization",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "organization of the party/applicant, if applicable"
+    },
+    {
+        "name": "applicant_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "type of the party/applicant"
+    },
+    {
+        "name": "applicant_designation",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "designation of the party/applicant"
+    },
+    {
+        "name": "rawlocation_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "parties' unique location id"
+    }
+]

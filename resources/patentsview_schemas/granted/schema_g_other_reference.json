@@ -1,0 +1,20 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which this reference appears in the raw XML for the current patent; sequence for this table starts at 0."
+    },
+    {
+        "name": "text",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "non-patent literature reference text"
+    }
+]

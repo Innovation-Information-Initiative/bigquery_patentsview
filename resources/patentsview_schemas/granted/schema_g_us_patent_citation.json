@@ -1,0 +1,44 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "citation_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which this reference is cited by select patent; sequence for this table begins at {0}."
+    },
+    {
+        "name": "citation_patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "identifying number of patent to which select patent cites"
+    },
+    {
+        "name": "citation_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "first day of the month the cited patent (citation_id) was granted"
+    },
+    {
+        "name": "record_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "name of cited record"
+    },
+    {
+        "name": "wipo_kind",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "WIPO document kind codes (http://www.uspto.gov/learning-and-resources/support-centers/electronic-business-center/kind-codes-included-uspto-patent)"
+    },
+    {
+        "name": "citation_category",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "who cited the patent (examiner, applicant, other etc)"
+    }
+]

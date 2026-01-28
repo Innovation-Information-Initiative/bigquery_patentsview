@@ -1,0 +1,20 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "disamb_inventor_id_xxxxxxxx",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "the disambiguated inventor ids associated with the raw inventor on a given pgpub document with the given sequence during the data updates matching the date stamps in the field names. Data on this table goes back to the 20170808 update."
+    },
+    {
+        "name": "inventor_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which inventor appears in patent file; sequence for this table begins at {0}."
+    }
+]

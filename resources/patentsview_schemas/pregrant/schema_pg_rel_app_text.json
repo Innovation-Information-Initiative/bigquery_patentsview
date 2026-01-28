@@ -1,0 +1,14 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "rel_app_text",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "text of the description of the related application in question"
+    }
+]

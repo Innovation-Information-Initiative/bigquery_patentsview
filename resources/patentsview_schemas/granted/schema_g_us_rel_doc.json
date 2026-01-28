@@ -1,0 +1,56 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "related_doc_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "defines the type of documentation"
+    },
+    {
+        "name": "related_doc_kind",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "kind of document (text)"
+    },
+    {
+        "name": "related_doc_number",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "related document number"
+    },
+    {
+        "name": "published_country",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "country where related document was published"
+    },
+    {
+        "name": "related_doc_published_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "publication date of the related document"
+    },
+    {
+        "name": "related_doc_status",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "status of related document"
+    },
+    {
+        "name": "related_doc_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which the related document appears in patent file; sequence for this table begins at {0}."
+    },
+    {
+        "name": "wipo_kind",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "WIPO document kind codes (http://www.uspto.gov/learning-and-resources/support-centers/electronic-business-center/kind-codes-included-uspto-patent)"
+    }
+]

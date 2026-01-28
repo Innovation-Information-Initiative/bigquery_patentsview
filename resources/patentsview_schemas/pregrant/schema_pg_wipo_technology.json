@@ -1,0 +1,32 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "wipo_field_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which WIPO technology field appears on patent; sequence for this table begins at {0}."
+    },
+    {
+        "name": "wipo_field_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "WIPO technology field id as derived from crosswalk http://www.wipo.int/export/sites/www/ipstats/en/statistics/patents/xls/ipc_technology.xls"
+    },
+    {
+        "name": "wipo_sector_title",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "WIPO technology sector title"
+    },
+    {
+        "name": "wipo_field_title",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "WIPO technology field title"
+    }
+]

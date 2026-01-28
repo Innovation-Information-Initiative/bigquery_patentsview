@@ -1,0 +1,20 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "disamb_assignee_id_xxxxxxxx",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "the disambiguated assignee ids associated with the raw assignee on a given pgpub document with the given sequence during the data updates matching the date stamps in the field names. Data on this table goes back to the 20201229 update."
+    },
+    {
+        "name": "assignee_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which assignee appears in application\u00a0file; sequence for this table begins at {1}."
+    }
+]

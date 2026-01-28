@@ -1,0 +1,14 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "rel_app_text",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "text of the description of the related application in question"
+    }
+]

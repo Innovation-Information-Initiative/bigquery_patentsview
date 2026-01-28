@@ -1,0 +1,14 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent this record corresponds to"
+    },
+    {
+        "name": "patent_abstract",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "abstract text of patent"
+    }
+]

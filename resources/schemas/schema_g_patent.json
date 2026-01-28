@@ -1,0 +1,50 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent this record corresponds to"
+    },
+    {
+        "name": "patent_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "category of patent. Usually \"design\", \"reissue\", etc."
+    },
+    {
+        "name": "patent_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "date when patent was granted"
+    },
+    {
+        "name": "patent_title",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "title of patent"
+    },
+    {
+        "name": "wipo_kind",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "WIPO document kind codes (http://www.uspto.gov/learning-and-resources/support-centers/electronic-business-center/kind-codes-included-uspto-patent)"
+    },
+    {
+        "name": "num_claims",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "number of claims"
+    },
+    {
+        "name": "withdrawn",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "whether a patent has been withdrawn or not (withdrawn = 1, not withdrawn = 0)"
+    },
+    {
+        "name": "filename",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "name of the raw data file where patent information is parsed from"
+    }
+]

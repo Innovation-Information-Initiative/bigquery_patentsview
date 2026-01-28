@@ -1,0 +1,14 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "gi_statement",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "raw government interest text"
+    }
+]

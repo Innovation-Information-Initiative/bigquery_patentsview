@@ -1,0 +1,33 @@
+[
+    {
+      "name": "patent_id",
+      "type": "STRING",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "claim_sequence",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "claim_text",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "dependent",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "claim_number",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "exemplary",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    }
+  ]
+  

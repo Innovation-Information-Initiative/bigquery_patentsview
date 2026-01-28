@@ -1,0 +1,38 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "gi_organization_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "unique organization id"
+    },
+    {
+        "name": "fedagency_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "name of Federal department, agency, bureau, etc."
+    },
+    {
+        "name": "level_one",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "position of the focal agency in a hierarchical set of relationships with the parent agency (e.g., DHHS) at level_one and child agencies at lower levels (e.g., NIH at level_two and NIDA at level_three). government_organization.name is equal to one and only one of the values in level_one, level_two, and level_three"
+    },
+    {
+        "name": "level_two",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "position of the focal agency in a hierarchical set of relationships with the parent agency (e.g., DHHS) at level_one and child agencies at lower levels (e.g., NIH at level_two and NIDA at level_three). government_organization.name is equal to one and only one of the values in level_one, level_two, and level_three"
+    },
+    {
+        "name": "level_three",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "position of the focal agency in a hierarchical set of relationships with the parent agency (e.g., DHHS) at level_one and child agencies at lower levels (e.g., NIH at level_two and NIDA at level_three). government_organization.name is equal to one and only one of the values in level_one, level_two, and level_three"
+    }
+]

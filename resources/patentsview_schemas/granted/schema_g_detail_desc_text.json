@@ -1,0 +1,20 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "description_text",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "text of the description itself, excluding headings"
+    },
+    {
+        "name": "description_length",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "length of the description text"
+    }
+]

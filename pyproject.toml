@@ -1,0 +1,102 @@
+# ======================================================================================
+# Project metadata
+# ======================================================================================
+
+[project]
+name = "patentsview-to-bigquery"
+description = "Tool for downloading USPTO PatentsView data and uploading to BigQuery"
+dynamic = ["version"]
+requires-python = ">=3.13"
+maintainers = [
+    { name = "Dror Shvadron", email = "dror.shvadron@rotman.utoronto.ca" },
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/DrorSh/patentsview_gbq"
+Repository = "https://github.com/DrorSh/patentsview_gbq"
+
+# ======================================================================================
+# Build system configuration
+# ======================================================================================
+
+[build-system]
+requires = ["hatchling>=1.18"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/patentsview_gbq/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/patentsview_gbq"]
+
+# ======================================================================================
+# Pixi configuration 
+# ======================================================================================
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["linux-64"]  # add: "osx-64", "osx-arm64", "win-64" if collaborators need them
+
+[tool.pixi.dependencies]
+python = "3.13.*"
+pandas = "2.3.*"
+pytest = ">=8"
+pytask = ">=0.5.7"
+ruff = ">=0.14"
+pdbpp = ">=0.11"
+jupyterlab = "*"
+ipykernel = "*"
+pyarrow = ">=22.0.0"
+fastparquet = ">=2024.11.0"
+
+# src/ layout for pytask
+[tool.pixi.pypi-dependencies]
+patentsview-to-bigquery = { path = ".", editable = true }
+google-cloud-bigquery = ">=3.11.4"
+google-cloud-storage = ">=2.14.0"
+requests = ">=2.31.0"
+beautifulsoup4 = ">=4.12.0"
+urllib3 = ">=2.0.0"
+typing-extensions = ">=4.5.0"
+
+[tool.pixi.tasks]
+clean = "rm -rf .pytask .pytest_cache __pycache__"
+reproduce = "python -m workflows.reproduce"  # end-to-end entry point
+tests = "pytest -q"
+lint = "ruff check ."
+format = "ruff format ."
+notebook = "jupyter lab --no-browser --NotebookApp.token='' --NotebookApp.password=''"
+
+# ======================================================================================
+# Pytask
+# ======================================================================================
+
+[tool.pytask.ini_options]
+paths = ["./src/patentsview_gbq/tasks"]
+pdbcls = "pdbpp:Pdb"  # Temporarily disabled for testing
+task_files = ["[0-9][0-9][0-9][0-9][0-9][0-9][a-z_]*.py", "task_*.py"]
+capture = "sys"  
+config = ["src/patentsview_gbq/config.py"]
+
+# ======================================================================================
+# Tooling 
+# ======================================================================================
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.mypy]
+python_version = "3.13"
+ignore_missing_imports = true

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "disclaimer_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "date of the terminal disclaimer"
+    },
+    {
+        "name": "term_disclaimer",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "disclaimer if the patent is subject to a terminal disclaimer"
+    },
+    {
+        "name": "term_grant",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "the length of time during which a patent is in\u00a0force (i.e. the inventor(s) or assignee(s) have exclusive rights to the invention) in years"
+    },
+    {
+        "name": "term_extension",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "an extension to the grant term\u00a0period\u00a0in days"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "cpc_subclass",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc group id"
+    },
+    {
+        "name": "cpc_subclass_title",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "description of cpc group"
+    },
+    {
+        "name": "cpc_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc subgroup id"
+    },
+    {
+        "name": "cpc_group_title",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "description of cpc subgroup"
+    },
+    {
+        "name": "cpc_class",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc subsection id"
+    },
+    {
+        "name": "cpc_class_title",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "description of cpc subsection"
+    }
+]

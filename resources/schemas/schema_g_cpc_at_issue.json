@@ -1,0 +1,52 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "cpc_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which cpc class appears in patent file; sequence for this table begins at {0}."
+    },
+    {
+        "name": "cpc_version_indicator",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cpc_section",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cpc_class",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc class"
+    },
+    {
+        "name": "cpc_subclass",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc subclass"
+    },
+    {
+        "name": "cpc_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc group"
+    },
+    {
+        "name": "cpc_type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cpc_action_date",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    }
+]

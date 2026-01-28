@@ -1,0 +1,38 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "uspc_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which uspc class appears in patent file; sequence for this table begins at {0}."
+    },
+    {
+        "name": "uspc_mainclass_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "uspc mainclass at issue"
+    },
+    {
+        "name": "uspc_mainclass_title",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "description of uspc mainclass"
+    },
+    {
+        "name": "uspc_subclass_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "uspc subclass at issue"
+    },
+    {
+        "name": "uspc_subclass_title",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "description of uspc subclass"
+    }
+]

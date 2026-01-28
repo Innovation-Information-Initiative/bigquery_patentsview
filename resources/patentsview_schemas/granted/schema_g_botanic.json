@@ -1,0 +1,20 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "latin_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "latin name of plant"
+    },
+    {
+        "name": "plant_variety",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "variety of plant"
+    }
+]

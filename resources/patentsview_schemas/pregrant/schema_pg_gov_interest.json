@@ -1,0 +1,14 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "gi_statement",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "raw government interest text"
+    }
+]

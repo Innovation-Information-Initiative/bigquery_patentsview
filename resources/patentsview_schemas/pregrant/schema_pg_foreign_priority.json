@@ -1,0 +1,38 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "priority_claim_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which priority claims appear in publication; sequence for this table begins at {1}"
+    },
+    {
+        "name": "priority_claim_kind",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "type of priority claim (international, national, regional)"
+    },
+    {
+        "name": "foreign_application_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "foreign patent application number"
+    },
+    {
+        "name": "filing_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "date on which the foreign document was filed"
+    },
+    {
+        "name": "foreign_country_filed",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "country in which the foreign document was filed"
+    }
+]

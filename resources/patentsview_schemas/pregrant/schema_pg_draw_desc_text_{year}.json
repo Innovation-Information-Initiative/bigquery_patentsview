@@ -1,0 +1,20 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "draw_desc_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which drawing descriptions appear in application file, often the same as the figure id; sequence for this table begins at {1}."
+    },
+    {
+        "name": "draw_desc_text",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "text of the drawing descriptions"
+    }
+]

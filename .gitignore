@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Project data
+bld/
+*.zip
+*.tsv
+*.csv
+!table_descriptions.json
+!variable_descriptions.json
+
+# Pixi
+.pixi/
+pixi.lock
+
+# IDE
+.vscode/
+.idea/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+.venv/
+
+# Google Cloud credentials
+credentials.json
+service-account.json
+
+# Logs
+*.log
+
+# Pytask
+.pytask/
+
+# Windows
+*Zone.Identifier
+
+# Claude
+.claude/

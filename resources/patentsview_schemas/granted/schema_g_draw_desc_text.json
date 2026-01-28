@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "patent_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "draw_desc_sequence",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "draw_desc_text",
+    "type": "STRING"
+  }
+]

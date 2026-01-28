@@ -1,0 +1,38 @@
+[
+    {
+        "name": "application_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "application id assigned by USPTO"
+    },
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "patent_application_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent application series code: 01-17 = utility application; 29 = design application; 35 = international design applications; 60-62 = provisional application; 90 = ex parte reexamination request; 95 = inter partes reexamination request; 96 = supplemental examination"
+    },
+    {
+        "name": "filing_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "date of application filing, ISO format: YYYY-MM-DD"
+    },
+    {
+        "name": "series_code",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "application series; \"D\" for some designs; (http://www.uspto.gov/web/offices/ac/ido/oeip/taf/filingyr.htm)"
+    },
+    {
+        "name": "rule_47_flag",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "flag for inventor who was unable to be contacted at filing of patent"
+    }
+]

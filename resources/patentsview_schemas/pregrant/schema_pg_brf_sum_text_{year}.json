@@ -1,0 +1,14 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "summary_text",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "text of the summary itself"
+    }
+]

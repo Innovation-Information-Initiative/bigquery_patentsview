@@ -1,0 +1,80 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "ipc_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which IPC\u00a0class appears in patent file; sequence for this table begins at {1}."
+    },
+    {
+        "name": "classification_level",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IPC classification level (A = advanced level)"
+    },
+    {
+        "name": "section",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IPC section (A = Human Necessities, B = Performing Operations; Transporting, C = Chemistry; Metallurgy, D = Textiles; Paper, E = Fixed Constructions, F = Mechanical Engineering; Lighting; Heating; Weapons; Blasting, G = Physics, H = Electricity)"
+    },
+    {
+        "name": "ipc_class",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IPC class"
+    },
+    {
+        "name": "subclass",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IPC subclass"
+    },
+    {
+        "name": "main_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IPC group"
+    },
+    {
+        "name": "subgroup",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IPC subgroup"
+    },
+    {
+        "name": "classification_value",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IPC classification value ( I = invention information; N = non-invention information)"
+    },
+    {
+        "name": "classification_status",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IPC classification status ( B = Basic or Original)"
+    },
+    {
+        "name": "classification_data_source",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IPC classification data source ( H = Human - Generated; M = Machine - Generated; G = Generated via Software)"
+    },
+    {
+        "name": "action_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "issue date of the patent grant"
+    },
+    {
+        "name": "ipc_version_indicator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IPC version indicator"
+    }
+]

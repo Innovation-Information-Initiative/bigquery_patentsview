@@ -1,0 +1,50 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "document number"
+    },
+    {
+        "name": "published_or_filed_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "date published or filed"
+    },
+    {
+        "name": "pct_371_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "PCT Section 371(c)(1)(2)(4)date, date when pct application was filed"
+    },
+    {
+        "name": "pct_102_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "35 U.S.C. \u00a7 102(e) date for pct applications"
+    },
+    {
+        "name": "filed_country",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "country filed in"
+    },
+    {
+        "name": "application_kind",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "kind of application (numerical for filed, alphabetical for published)"
+    },
+    {
+        "name": "pct_doc_number",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "pct document number"
+    },
+    {
+        "name": "pct_doc_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "whether the document has been published or just filed"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "pgpub_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "contract_award_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "federal contract award number"
+    }
+]

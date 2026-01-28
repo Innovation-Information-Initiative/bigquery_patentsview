@@ -1,0 +1,32 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "raw_examiner_name_first",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "examiner first name"
+    },
+    {
+        "name": "raw_examiner_name_last",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "examiner last\u00a0name"
+    },
+    {
+        "name": "examiner_role",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "whether this individual was the primary or assistant examiner"
+    },
+    {
+        "name": "art_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "art unit, tech center, industry sector, or other grouping of US patent examiners"
+    }
+]

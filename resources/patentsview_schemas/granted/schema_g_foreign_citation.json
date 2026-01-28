@@ -1,0 +1,38 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "citation_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which this citation is cited by patent; sequence for this table begins at {0}."
+    },
+    {
+        "name": "citation_application_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "identifying number of patent/application to which select patent cites"
+    },
+    {
+        "name": "citation_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "date select patent (pat_no) cites patent/application (number)"
+    },
+    {
+        "name": "citation_category",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "who cited the patent (examiner, applicant, other etc)"
+    },
+    {
+        "name": "citation_country",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "country patent/application (number) was filed"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number (US patent number)"
+    },
+    {
+        "name": "priority_claim_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which priority claims appear in patent file; sequence for this table begins at {0}."
+    },
+    {
+        "name": "priority_claim_kind",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "type of priority claim (international, national, regional)"
+    },
+    {
+        "name": "foreign_application_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "foreign patent application number"
+    },
+    {
+        "name": "filing_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "date at which patent was previously filed"
+    },
+    {
+        "name": "foreign_country_filed",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "country in which patent was originally filed (transformed name)"
+    }
+]

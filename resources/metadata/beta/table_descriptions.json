@@ -1,0 +1,13 @@
+{
+  "\\t": "Double Quote (\"); Quote Non Numeric",
+  "g_sorted_applicant_not_disambiguated": "records for applicants listed on a patent including executors and legal representatives of inventors",
+  "g_sorted_assignee_not_disambiguated": "records for assignees listed on a patent",
+  "g_sorted_individual_not_disambiguated": "records for all individual persons listed on a patent as an inventor, assignee, or applicant (does not include attorneys or examiners)",
+  "g_sorted_inventor_not_disambiguated": "records for inventors listed on a patent",
+  "g_sorted_org_not_disambiguated": "records for all organizations listed on a patent as an assignee or applicant",
+  "pg_sorted_applicant_not_disambiguated": "records for applicants listed on an application including executors and legal representatives of inventors",
+  "pg_sorted_assignee_not_disambiguated": "records for assignees listed on an application",
+  "pg_sorted_individual_not_disambiguated": "records for all individual persons listed on an application as an inventor, assignee, or applicant (does not include attorneys or examiners)",
+  "pg_sorted_inventor_not_disambiguated": "records for inventors listed on an application",
+  "pg_sorted_org_not_disambiguated": "records for all organizations listed on an application as an assignee or applicant"
+}

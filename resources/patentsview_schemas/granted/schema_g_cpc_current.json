@@ -1,0 +1,44 @@
+[
+    {
+        "name": "patent_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "patent number"
+    },
+    {
+        "name": "cpc_sequence",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "order in which cpc class appears in patent file; sequence for this table begins at {0}."
+    },
+    {
+        "name": "cpc_section",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc section (A = Human Necessitates, B = Performing Operations; Transporting, C = Chemistry; Metallurgy, D = Textiles; Paper, E = Fixed Constructions, F = Mechanical Engineering; Lighting; Heating; Weapons; Blasting Engines or Pumps, G = Physics, H = Electricity, Y = General Tagging of New Technological Developments)"
+    },
+    {
+        "name": "cpc_class",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc subsection id: https://www.uspto.gov/web/patents/classification/cpc/html/cpc.html"
+    },
+    {
+        "name": "cpc_subclass",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc group id: https://www.uspto.gov/web/patents/classification/cpc/html/cpc.html"
+    },
+    {
+        "name": "cpc_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc subgroup id: https://www.uspto.gov/web/patents/classification/cpc/html/cpc.html"
+    },
+    {
+        "name": "cpc_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "cpc category (inventional\u00a0or additional)"
+    }
+]
